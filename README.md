@@ -1,11 +1,16 @@
 📚 Book Recommendation System (Streamlit App)
 
+---
+![Project Logo](https://img.shields.io/badge/Streamlit-Deployed-green)
+**Deployed Application:** [Visit the App](https://bookrecommendationsystem-3fu7yuasc6ruhetqehxaid.streamlit.app/)
+
 A Collaborative Filtering–based Book Recommendation System built using K-Nearest Neighbors (KNN) and deployed through an interactive Streamlit web application. This project recommends similar books based on user reading patterns and rating behavior, using item-based filtering techniques.
 
 🚀 Overview
 
 This project uses item-based collaborative filtering, where books are represented as vectors based on user ratings. Using the cosine similarity metric, the KNN model identifies books that are closely related to the selected title. The system is lightweight, fast, and fully interactive through Streamlit.
 
+---
 ✨ Key Features
 
 Interactive Streamlit UI
