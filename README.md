@@ -76,6 +76,7 @@ Click Recommend.
 
 The system displays the top 5 most similar books based on collaborative filtering.
 
+---
 🧠 Model Details
 🔍 Algorithm
 
