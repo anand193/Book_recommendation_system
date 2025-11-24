@@ -6,6 +6,7 @@
 
 A Collaborative Filtering–based Book Recommendation System built using K-Nearest Neighbors (KNN) and deployed through an interactive Streamlit web application. This project recommends similar books based on user reading patterns and rating behavior, using item-based filtering techniques.
 
+---
 🚀 Overview
 
 This project uses item-based collaborative filtering, where books are represented as vectors based on user ratings. Using the cosine similarity metric, the KNN model identifies books that are closely related to the selected title. The system is lightweight, fast, and fully interactive through Streamlit.
@@ -25,6 +26,7 @@ Efficiently finds the nearest neighboring books using sparse vector similarity.
 Minimal Dependencies
 Runs smoothly using common Python data science libraries.
 
+---
 ⚙️ Prerequisites
 
 Ensure you have:
@@ -41,6 +43,7 @@ Install required packages:
 
 pip install pandas numpy scikit-learn scipy streamlit
 
+---
 💻 Installation & Setup
 
 Clone the repository or copy the project folder.
@@ -64,6 +67,7 @@ Your browser will open automatically at:
 
 http://localhost:8501
 
+---
 🧑‍💻 How to Use the Application
 
 Select a Book from the dropdown list.
@@ -82,6 +86,7 @@ scikit-learn’s NearestNeighbors
 Cosine Similarity as the distance metric
 (Similarity = 1 – distance)
 
+---
 📊 Data
 
 Rows: Book titles
@@ -92,6 +97,7 @@ Values: Ratings
 
 Format: CSR sparse matrix
 
+---
 ⚡ Core Logic
 
 Load:
